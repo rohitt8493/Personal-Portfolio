@@ -17,7 +17,7 @@ A simple, responsive front-end portfolio built with **HTML**, **CSS**, and **Jav
 - JavaScript interactions: greeting alert, scroll-to-contact, form validation and confirmation
 
 ## File Structure
-personal_portfolio/
+personal portfolio/
 ├─ index.html
 ├─ style.css
 ├─ script.js
