@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rohit Kumar — Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#home" class="logo">Rohit Kumar</a>
+      <button id="contactBtn" class="nav-btn">Contact</button>
+    </nav>
+    <section id="home" class="hero">
+      <h1>Welcome — I'm Rohit Kumar</h1>
+      <p class="tagline">B.Tech CSE student · Web &amp; AI enthusiast</p>
+      <button id="visitAlert" class="primary-btn">Say Hello</button>
+      <button id="toggleAbout" class="secondary-btn">Show/Hide About</button>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="about section">
+      <h2>About Me</h2>
+      <p>
+        I am Rohit Kumar, a B.Tech CSE student passionate about building web
+        applications and exploring artificial intelligence. I enjoy solving
+        real-world problems by combining clean front-end design with practical
+        AI techniques. I learn continuously, collaborate well in teams, and
+        focus on accessible, user-centered solutions.
+      </p>
+    </section>
+
+    <section id="skills" class="skills section">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>CPP</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Web Development</li>
+        <li>AI</li>
+        <li>Problem Solving</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects section">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <h3>Real-time Sign Language for Deaf People</h3>
+        <p>
+          A real-time sign-language recognition system that uses a camera feed
+          and a lightweight ML model to translate hand gestures into text and
+          speech. The project focuses on accessibility, low-latency inference,
+          and an intuitive UI for everyday use.
+        </p>
+        <p class="project-summary"><strong>Summary:</strong> This project captures
+        live video, extracts hand landmarks, and runs a trained classifier to
+        provide immediate translations. It aims to bridge communication gaps
+        for deaf users in real-world settings.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Academic AI Chatbot for Students</h3>
+        <p>
+          An academic assistant chatbot tailored for students that answers
+          curriculum-related questions, explains concepts, and provides
+          references. The bot is designed to give accurate, concise answers and
+          suggest study resources while clearly indicating when it is unsure.
+        </p>
+        <p class="project-summary"><strong>Summary:</strong> The chatbot uses
+        retrieval-augmented responses and curated academic content to improve
+        accuracy. It includes fallback messages and encourages users to verify
+        critical answers with instructors or textbooks.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <h2>Contact Me</h2>
+      <p>If you'd like to contact me, please fill the form below.</p>
+
+      <form id="contactForm" class="contact-form" autocomplete="off">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" pattern="[0-9+ -]{7,15}" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="primary-btn">Submit</button>
+      </form>
+
+      <div id="formFeedback" class="form-feedback" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© Rohit Kumar 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
