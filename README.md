@@ -1,4 +1,4 @@
-# personal_portfolio
+# personal portfolio
 
 **Author:** Rohit Kumar  
 **Program:** B.Tech CSE  
