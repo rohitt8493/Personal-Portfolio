@@ -1,6 +1,6 @@
 # personal portfolio
 
-**Author:** Rohit Kumar  
+**Name:** Rohit Kumar  
 **Program:** B.Tech CSE  
 **Role:** Web and AI enthusiast
 
